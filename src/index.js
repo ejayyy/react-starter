@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-import Square from './js/Square';
+import Board from './js/Board';
 
-ReactDOM.render(<Square />, document.getElementById('root'));
+ReactDOM.render(<Board />, document.getElementById('root'));
 
 serviceWorker.unregister();

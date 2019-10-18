@@ -8,6 +8,7 @@ class Board extends React.Component {
     render() {
         return (
             <div>
+                <h2>Next player: X</h2>
                 <div>
                     {this.renderSquare(0)}
                     {this.renderSquare(1)}
